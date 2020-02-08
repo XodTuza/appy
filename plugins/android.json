@@ -1,0 +1,24 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-admobpro": {
+      "ADMOB_APP_ID": "ca-app-pub-8586821246357685~9306601426",
+      "PLAY_SERVICES_VERSION": "16.0.0",
+      "PACKAGE_NAME": "com.admobfreeapp.app"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.admobfreeapp.app"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-extension": {
+      "PACKAGE_NAME": "com.admobfreeapp.app"
+    }
+  }
+}
