@@ -16,19 +16,20 @@
              document.addEventListener('deviceready', function(){
                  admob.banner.prepare();
                  admob.banner.show({
-                     id: 'ca-app-pub-3940256099942544/6300978111',
-                     autoShow: true
+                     id:'ca-app-pub-3940256099942544/6300978111',
+                     autoShow:true
                  })
              }, false);
 
              document.getElementById('interstitialad').addEventListener('click', interstitialAd);
 
              function interstitialAd() {
-                 admob.interstitialad.config({
+                 admob.interstitial.config({
                      id: 'ca-app-pub-3940256099942544/1033173712'
                  });
                  admob.interstitial.prepare();
              }
+             
         </script>
     </body>
 </html>
